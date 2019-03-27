@@ -1,3 +1,9 @@
+<!doctype html>
+<html>
+<head>
+  <title>super light aberoth</title>
+</head>
+<body>
 <script>
 function shou() {
   document.body.innerHTML += "buy a new pc";
@@ -5,5 +11,9 @@ function shou() {
     shou();
   }, 200);
 }
-  shou();
+  window.onload = function () {
+    shou();
+  }
 </script>
+</body>
+</html>
